@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List By BkimKing</title>
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List by <span>BkimKing</span></h1>
+        <form id="todo-form">
+            <input type="text" id="task-input" placeholder="Add new task..." required>
+            <button type="submit">Add Task</button>
+        </form>
+        <div class="controls">
+            <label for="filter">Filter:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="pending">Pending</option>
+            </select>
+            <label for="sort">Sort:</label>
+            <select id="sort">
+                <option value="priority">Priority</option>
+                <option value="alphabetical">Alphabetical</option>
+            </select>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
