@@ -153,3 +153,10 @@ li:last-child {
         font-size: 12px;
     }
 }
+@media screen and (max-width: 450px) {
+    label{
+        display: flex;
+        padding: 15px 0 0 0;
+        margin-right: 10px;
+    }
+}
